@@ -1,1 +1,9 @@
-console.log("Hello Vishmitha Node.js LAB 04");
+const fs = require('fs');
+
+fs.writeFile('file.txt', 'Hello World!', function (err) {
+
+ if (err) throw err;
+
+ console.log('File saved!');
+
+});
