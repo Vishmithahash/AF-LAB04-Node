@@ -1,18 +1,9 @@
 const fs = require('fs');
 
-console.log("Hello Vishmitha Node.js LAB 04");
+fs.writeFile('file.txt', 'Hello World!', function (err) {
 
+ if (err) throw err;
 
-fs.readFile('file.txt', 'utf8', function(err, data) {
-
- 
-    if (err) {
-        console.log("Error reading file:", err);
-        return;
-    }
-
-    
-    console.log("File content:");
-    console.log(data);
+ console.log('File saved!');
 
 });

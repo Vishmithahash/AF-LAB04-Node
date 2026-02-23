@@ -1,1 +1,1 @@
-Hello Vishmitha! This is your Node.js Lab 04 file reading example.
+Hello World!
